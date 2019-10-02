@@ -18,6 +18,16 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+     {
+        "type": "composer",
+        "url": "https://repo.magento.com/"
+     },
+     {
+        "type": "git",
+        "url": "https://github.com/raj-jarvis/magento-module.git"
+     }
+    ],
     "autoload": {
         "files": [
             "registration.php"
