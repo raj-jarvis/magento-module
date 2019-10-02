@@ -1,0 +1,28 @@
+{
+    "name": "streak/treasure",
+    "description": "Streak Treasure",
+	"type": "magento2-module",
+    "version": "0.74.0-beta4",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+      "php": "~5.5|~5.6|~7.0",
+      "magento/magento-composer-installer": "*"
+    },
+	"authors": [
+        {
+            "name": "Raj",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Streak\\Treasure\\": ""
+        }
+    }
+}

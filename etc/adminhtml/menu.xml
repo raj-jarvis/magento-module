@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Streak_Treasure::parent" title="Treasure" module="Streak_Treasure" sortOrder="100" resource="Streak_Treasure::parent"/>
+        <add id="Streak_Treasure::index" title="Treasure Index" module="Streak_Treasure" sortOrder="10" action="treasure/index" resource="Streak_Treasure::index" parent="Streak_Treasure::parent"/>
+		<add id="Streak_Treasure::treasure" title="Treasure Treasure" module="Streak_Treasure" sortOrder="20" parent="Streak_Treasure::parent" action="treasure/treasure" resource="Streak_Treasure::treasure"/>
+
+    </menu>
+</config>
