@@ -3,7 +3,16 @@
     "description": "Streak Treasure",
     "type": "magento2-module",
     "version": "1.0.0",
-    "minimum-stability": "beta",
+    "minimum-stability": "dev",
+ "require": {
+        "magento/project-community-edition": "*@dev"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/magento/magento2.git"
+        }
+    ],
     "authors": [
         {
             "name": "Raj",
