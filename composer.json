@@ -1,7 +1,7 @@
 {
-    "name": "raj-jarvis/magento-module",
+    "name": "streak/treasure",
     "description": "Streak Treasure",
-    "type": "magento2-module",
+    "type": "magento2-streak",
     "version": "1.0.0",
     "license": [
         "OSL-3.0",
@@ -17,16 +17,6 @@
 	    "homepage": "www.example.com",
             "role": "Developer"
         }
-    ],
-    "repositories": [
-     {
-        "type": "composer",
-        "url": "https://repo.magento.com/"
-     },
-     {
-        "type": "git",
-        "url": "https://github.com/raj-jarvis/magento-module.git"
-     }
     ],
     "autoload": {
         "files": [
