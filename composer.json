@@ -1,35 +1,26 @@
 {
     "name": "raj-jarvis/magento-module",
     "description": "Streak Treasure",
-    "type": "magento2-streak",
-    "version": "1.0.0",
-    "license": [
-        "OSL-3.0",
-        "AFL-3.0"
-    ],
-    "require": {
-        "php": "~5.5.0|~5.6.0|~7.0.0"
-    },
+    "license": "proprietary",
     "authors": [
         {
             "name": "Raj",
-	    "email": "rajpanchal377@gmail.com",
-	    "homepage": "www.example.com",
-            "role": "Developer"
+	    "email": "rajpanchal377@gmail.com"
         }
     ],
     "repositories":
     {
-      "url": "https://github.com/raj-jarvis/magento-module.git", 
+      "url": "github.com/raj-jarvis/magento-module.git", 
       "type": "git"
     },
     "minimum-stability": "dev",
+    "require": {},
     "autoload": {
-        "files": [
-            "registration.php"
-        ],
         "psr-4": {
             "Streak\\Treasure\\": ""
-        }
+        },
+	"files": [
+            "registration.php"
+        ]
     }
 }
